@@ -1,0 +1,13 @@
+{
+    "name": "JS ENV",
+    "dockerFile": "DockerFile",
+    "appPort": [3000],
+    "runArgs": ["-u","node"],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "npm install",
+    "extensions": [
+        
+    ]
+}
